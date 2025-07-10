@@ -3,3 +3,9 @@ resource "azurerm_resource_group" "rgs" {
     location = "westus"
   
 }
+
+resource "azurerm_resource_group" "rgs1" {
+    name = "abcde"
+    location = "westus"
+  
+}
