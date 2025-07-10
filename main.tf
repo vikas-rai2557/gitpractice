@@ -14,8 +14,13 @@ resource "azurerm_resource_group" "rgs3" {
     location = "westus"
   
 }
+
 resource "azurerm_resource_group" "rgs4" {
     name = "radhe-radhe"
+  location = "westus"
+
+resource "azurerm_resource_group" "rgs3" {
+    name = "sunil"
     location = "westus"
   
 }
